@@ -6,8 +6,8 @@ const Config = require("./Config.json")
 client.login(Config.TOKEN);
 
 cron.schedule(Config.time, () => {
-	const message_list = Config.messages;
-	client.guilds.cache.get(Config.server_name).channels.cache.find(ch => ch.name === Config.channel_name).send(message_list[Math.floor( Math.random()*message_list.length)])
+  const message_list = Config.messages;
+  client.guilds.cache.get(Config.server_name).channels.cache.find(ch => ch.name === Config.channel_name).send(message_list[Math.floor( Math.random()*message_list.length)])
 })
 
 client.on("ready", () => {
