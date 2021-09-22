@@ -12,5 +12,5 @@ cron.schedule(Config.time, () => {
 
 client.on("ready", () => {
   const time = new Date()
-  console.log(`(${time}\nlogin!!${client.user.tag})`);
+  console.log(`${time}\nlogin!!(${client.user.tag})`);
 });
