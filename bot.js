@@ -2,12 +2,12 @@ const { Client, Intents, Channel } = require("discord.js");
 const fs = require("fs");
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]});
 
-fs.readFile("Config.txt", "utf-8", (err, data) => {
+fs.readFile("Config.json", "utf-8", (err, data) => {
   if (err) throw err;
   client.login(JSON.parse(data).TOKEN);
 });
 const cron = require('node-cron')
-fs.readFile("Config.txt", "utf-8", (err, data) => {
+fs.readFile("Config.json", "utf-8", (err, data) => {
 	if (err) throw err;
 cron.schedule(JSON.parse(data).time, () => {
 	const message_list = JSON.parse(data).messages;
