@@ -1,5 +1,5 @@
 {
-  "name": "time_signal_bot",
+  "name": "discord_time_signal_bot",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
