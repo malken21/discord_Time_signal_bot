@@ -10,7 +10,7 @@ cron.schedule(Config.time, () => {
   client.guilds.cache.get(Config.server_name).channels.cache.find(ch => ch.name === Config.channel_name).send(message_list[Math.floor( Math.random()*message_list.length)])
 })
 
-client.on("ready", () => {
+client.on('ready', () => {
   const time = new Date()
   console.log(`${time}\nlogin!!(${client.user.tag})`);
 });
