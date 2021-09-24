@@ -1,6 +1,6 @@
 {
     "TOKEN": "自分のbotのTOKEN",
-    "time": "0 19 19 * * *",
+    "time": "30 19 19 * * *",
     "server_id": "時報を送信するディスコ鯖のID",
     "channel_id": "時報を送信するチャンネルのID",
     "messages": [
