@@ -10,3 +10,8 @@ Config.jsonで設定されたランダムな時報を送信するDiscord Bot
 Config.jsonにある time の 値 (デフォルトで19時19分「 30 19 19 * * * 」)
 <br>
 を操作することによって時報を送信する時間を自由に決められます(node-cron)
+## License(ライセンス)
+日本語: [MarumasaLicense v1.0 (日本語)](https://github.com/malken21/MarumasaLicenses/blob/main/MarumasaLicense_v1.0/LICENSE-ja.md)
+<br>
+<br>
+English: [MarumasaLicense v1.0 (English)](https://github.com/malken21/MarumasaLicenses/blob/main/MarumasaLicense_v1.0/LICENSE-en.md)
