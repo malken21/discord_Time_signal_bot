@@ -9,6 +9,5 @@ cron.schedule(Config.time, () => {
   console.log(`\nServerID : ${Config.server_id}\nchannelID : ${Config.channel_id}\nRandom : ${random}\nMessage : ${message}`);
 })
 client.on('ready', () => {
-  const time = new Date()
-  console.log(`${time}\nlogin!!(${client.user.tag})`);
+  console.log(`login!!(${client.user.tag})`);
 });
