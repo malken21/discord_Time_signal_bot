@@ -2,7 +2,7 @@
 Node.js Ver.16.6.0~&nbsp;&nbsp;&nbsp;Discord.js v13&nbsp;&nbsp;&nbsp;node-cron v3
 <br>
 <br>
-20時0分(正確には20時0分30秒)になるとConfig.jsonで指定したディスコ鯖の指定したチャンネルに
+指定した時間になるとConfig.jsonで指定したディスコ鯖の指定したチャンネルに
 <br>
 Config.jsonで設定されたランダムな時報を送信するDiscord Bot
 <br>
