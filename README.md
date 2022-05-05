@@ -7,7 +7,7 @@ Node.js Ver.16.6.0~&nbsp;&nbsp;&nbsp;Discord.js v13&nbsp;&nbsp;&nbsp;node-cron v
 Config.jsonで設定されたランダムな時報を送信するDiscord Bot
 <br>
 <br>
-Config.jsonにある time の 値 (デフォルトで20時0分「 30 0 20 * * * 」)
+Config.jsonにある time の 値 (デフォルトで毎日20時0分「 30 0 20 * * * 」)
 <br>
 を操作することによって時報を送信する時間を自由に決められます(node-cron)
 ## License(ライセンス)
